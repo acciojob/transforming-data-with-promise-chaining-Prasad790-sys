@@ -45,7 +45,7 @@ document.getElementById("btn").addEventListener("click", function() {
             setTimeout(() => {
                 resolve(number + 10); // Add 10
             }, 1000);
-        });https://www.svgrepo.com/show/345221/three-dots.svg
+        });
     })
     .then((number) => {
         output.textContent = `Final Result: ${number}`; // Display final result
